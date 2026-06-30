@@ -1,0 +1,20 @@
+# Secrets & tokens — NEVER commit these
+.env
+token.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+
+# Local draft store
+drafts.json
+drafts.json.lock
+
+# Local brand-voice profile
+voice.json
