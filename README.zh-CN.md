@@ -2,6 +2,7 @@
 
 # Octopus LinkedIn
 
+[![PyPI](https://img.shields.io/pypi/v/octopus-linkedin.svg)](https://pypi.org/project/octopus-linkedin/)
 [![License: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-%3E%3D3.10-brightgreen.svg)](pyproject.toml)
 [![MCP](https://img.shields.io/badge/protocol-MCP-8A2BE2.svg)](https://modelcontextprotocol.io)
@@ -75,9 +76,11 @@ ANTHROPIC_API_KEY=sk-ant-... # 或 OPENAI_API_KEY / GEMINI_API_KEY
 ### 1. 安装
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -e .
+pip install octopus-linkedin
 ```
+
+会装上两个命令：`octopus-linkedin`（CLI）和 `octopus-linkedin-mcp`（MCP server）。
+想从源码开发见 [开发](#开发) 一节。
 
 ### 2. 创建 LinkedIn 应用
 
@@ -120,7 +123,7 @@ python server.py
 ## 接入 Claude Code
 
 ```bash
-claude mcp add octopus-linkedin -- python /绝对路径/octopus-linkedin/server.py
+claude mcp add octopus-linkedin -- octopus-linkedin-mcp
 ```
 
 然后直接说：*"帮我起草一条关于 X 的 LinkedIn 帖子，我审核后再发布。"*

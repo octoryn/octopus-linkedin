@@ -2,6 +2,7 @@
 
 # Octopus LinkedIn
 
+[![PyPI](https://img.shields.io/pypi/v/octopus-linkedin.svg)](https://pypi.org/project/octopus-linkedin/)
 [![License: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-%3E%3D3.10-brightgreen.svg)](pyproject.toml)
 [![MCP](https://img.shields.io/badge/protocol-MCP-8A2BE2.svg)](https://modelcontextprotocol.io)
@@ -82,9 +83,12 @@ ANTHROPIC_API_KEY=sk-ant-... # or OPENAI_API_KEY / GEMINI_API_KEY
 ### 1. Install
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -e .
+pip install octopus-linkedin
 ```
+
+This installs two commands: `octopus-linkedin` (CLI) and `octopus-linkedin-mcp`
+(the MCP server). To work on the project from source instead, see
+[Development](#development).
 
 ### 2. Create a LinkedIn app
 
@@ -126,7 +130,7 @@ python server.py
 ## Connect to Claude Code
 
 ```bash
-claude mcp add octopus-linkedin -- python /absolute/path/to/octopus-linkedin/server.py
+claude mcp add octopus-linkedin -- octopus-linkedin-mcp
 ```
 
 Or add it to your MCP client config:
@@ -135,8 +139,7 @@ Or add it to your MCP client config:
 {
   "mcpServers": {
     "octopus-linkedin": {
-      "command": "python",
-      "args": ["/absolute/path/to/octopus-linkedin/server.py"]
+      "command": "octopus-linkedin-mcp"
     }
   }
 }
