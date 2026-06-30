@@ -41,7 +41,10 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["linkedin"]
-include = ["server.py", "cli.py"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"server.py" = "server.py"
+"cli.py" = "cli.py"
 
 [tool.ruff]
 line-length = 88
