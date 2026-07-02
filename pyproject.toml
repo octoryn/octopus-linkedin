@@ -1,10 +1,10 @@
 [project]
 name = "octopus-linkedin"
-version = "0.1.0"
+version = "0.2.0"
 description = "Governed LinkedIn marketing over MCP — draft, review, publish, comment, and analytics via the official LinkedIn API"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "AGPL-3.0-or-later"
+license = "Apache-2.0"
 authors = [{ name = "Octoryn" }]
 keywords = ["linkedin", "mcp", "marketing", "automation", "model-context-protocol"]
 classifiers = [

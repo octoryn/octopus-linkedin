@@ -6,6 +6,11 @@
 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，并遵循
 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.2.0]
+
+### 变更
+- **许可证从 AGPL-3.0-or-later 改为 Apache-2.0**，降低开发者采用与集成的门槛。
+
 ## [未发布]
 
 ### 新增 —— 内容智能

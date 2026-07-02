@@ -3,7 +3,7 @@
 # Octopus LinkedIn
 
 [![PyPI](https://img.shields.io/pypi/v/octopus-linkedin.svg)](https://pypi.org/project/octopus-linkedin/)
-[![License: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue.svg)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-%3E%3D3.10-brightgreen.svg)](pyproject.toml)
 [![MCP](https://img.shields.io/badge/protocol-MCP-8A2BE2.svg)](https://modelcontextprotocol.io)
 
@@ -169,4 +169,4 @@ ruff check . && ruff format --check . && pytest
 
 ## 许可证
 
-[AGPL-3.0-or-later](LICENSE)。
+[Apache-2.0](LICENSE)。
