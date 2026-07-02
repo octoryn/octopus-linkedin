@@ -6,6 +6,14 @@
 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，并遵循
 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.2.1]
+
+### 变更
+- 发布流程改为**打版本 tag 触发**，校验 tag 与 `pyproject.toml` 版本一致，
+  并在发布前跑通全套 lint/format/test。
+- 联系邮箱迁移到 `octopusos.ai` 域名（security@octopusos.ai、
+  conduct@octopusos.ai）；维护者：Ran Tao（ran@octopusos.ai）。
+
 ## [0.2.0]
 
 ### 变更

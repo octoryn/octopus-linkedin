@@ -7,9 +7,9 @@
 Please **do not open a public issue** for security vulnerabilities.
 
 Report privately via GitHub Security Advisories ("Report a vulnerability" on the
-repository's Security tab) or email **security@octoryn.com**. Include a
-description, reproduction steps, and impact. We aim to acknowledge within a few
-business days.
+repository's Security tab) or email **security@octopusos.ai** (maintainer:
+Ran Tao, ran@octopusos.ai). Include a description, reproduction steps, and
+impact. We aim to acknowledge within a few business days.
 
 ## Handling credentials
 

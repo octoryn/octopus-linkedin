@@ -1,11 +1,12 @@
 [project]
 name = "octopus-linkedin"
-version = "0.2.0"
+version = "0.2.1"
 description = "Governed LinkedIn marketing over MCP — draft, review, publish, comment, and analytics via the official LinkedIn API"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
-authors = [{ name = "Octoryn" }]
+authors = [{ name = "Ran Tao", email = "ran@octopusos.ai" }]
+maintainers = [{ name = "Ran Tao", email = "ran@octopusos.ai" }]
 keywords = ["linkedin", "mcp", "marketing", "automation", "model-context-protocol"]
 classifiers = [
     "Development Status :: 3 - Alpha",

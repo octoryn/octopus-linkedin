@@ -6,4 +6,4 @@
 
 简而言之：请保持尊重与建设性。不容忍骚扰或歧视行为。
 
-如遇不当行为，请举报至 **conduct@octoryn.com**。维护者会审阅并回应所有出于善意的举报。
+如遇不当行为，请举报至 **conduct@octopusos.ai**（维护者：Ran Tao，ran@octopusos.ai）。维护者会审阅并回应所有出于善意的举报。
