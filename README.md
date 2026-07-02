@@ -7,6 +7,10 @@
 [![Python](https://img.shields.io/badge/python-%3E%3D3.10-brightgreen.svg)](pyproject.toml)
 [![MCP](https://img.shields.io/badge/protocol-MCP-8A2BE2.svg)](https://modelcontextprotocol.io)
 
+> **Part of [Octopus Core](https://github.com/octoryn) — the open infrastructure stack for governed AI.** One job per repo, along the agent lifecycle: [Scout](https://github.com/octoryn/octopus-scout) · [Observe](https://github.com/octoryn/octopus-observe) · [Experience](https://github.com/octoryn/octopus-experience) · [Blackboard](https://github.com/octoryn/octopus-blackboard) · [Runtime](https://github.com/octoryn/octopus-runtime) · [Replay](https://github.com/octoryn/octopus-replay) — with [Inspect](https://github.com/octoryn/octopus-inspect) governing every stage.
+>
+> **This repo — LinkedIn · Governance example:** The stack’s draft→approve→publish discipline, applied to a real outward action.
+
 **Governed LinkedIn marketing over MCP.** Draft, review, publish, comment, and
 read engagement on LinkedIn — from Claude Desktop, Claude Code, or any
 MCP-compatible agent — using the **official LinkedIn API**.

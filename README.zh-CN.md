@@ -7,6 +7,10 @@
 [![Python](https://img.shields.io/badge/python-%3E%3D3.10-brightgreen.svg)](pyproject.toml)
 [![MCP](https://img.shields.io/badge/protocol-MCP-8A2BE2.svg)](https://modelcontextprotocol.io)
 
+> **[Octopus Core](https://github.com/octoryn) 的一部分 —— 受治理 AI 的开源基础设施栈。** 每个仓库只做一件事，沿 agent 生命周期组合：[Scout](https://github.com/octoryn/octopus-scout) · [Observe](https://github.com/octoryn/octopus-observe) · [Experience](https://github.com/octoryn/octopus-experience) · [Blackboard](https://github.com/octoryn/octopus-blackboard) · [Runtime](https://github.com/octoryn/octopus-runtime) · [Replay](https://github.com/octoryn/octopus-replay) —— [Inspect](https://github.com/octoryn/octopus-inspect) 横贯每一环做治理。
+>
+> **本仓库 —— LinkedIn · 治理示例：** 把 draft→approve→publish 的纪律用在真实外发。
+
 **通过 MCP 进行受治理的 LinkedIn 营销。** 在 Claude Desktop、Claude Code 或任何
 兼容 MCP 的智能体里，使用**官方 LinkedIn API** 起草、审核、发布、评论并查看互动数据。
 
